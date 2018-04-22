@@ -1,0 +1,8 @@
+[Unit]
+Description=whereami
+
+[Service]
+ExecStart=/sbin/whereami -interval 10 -iterations 30 -lcd-e 18 -lcd-rs 12 -lcd-data "1,2,3,4" -out "lcd"
+
+[Install]
+WantedBy=multi-user.target
