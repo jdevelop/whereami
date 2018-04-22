@@ -20,4 +20,9 @@ Usage of ./whereami:
   -lcd-rs string
         LCD RS pin, BCM pin number
   -out string
-        Status output format (console or lcd) (default "console")```
+        Status output format (console or lcd) (default "console")
+```
+
+## Smoke test
+
+![Smoke](https://raw.githubusercontent.com/jdevelop/whereami/images/shot.jpg)
